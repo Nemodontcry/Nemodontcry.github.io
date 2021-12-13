@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Even - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Even - A super concise theme for Hugo</description>
+    <title>csapp on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/csapp/</link>
+    <description>Recent content in csapp on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Dec 2021 15:19:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 30 Nov 2021 10:16:11 +0800</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>emmm here is about</description>
-    </item>
-    
+    <lastBuildDate>Mon, 13 Dec 2021 15:19:49 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/csapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bomb_Lab phase_5</title>
       <link>http://localhost:1313/post/csapp/bomb_lab/</link>

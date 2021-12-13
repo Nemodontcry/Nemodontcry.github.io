@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>BombLab phase_5 - Even - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Nemo" /><meta name="description" content="CSAPP bomb lab phase_5
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.89.2 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/csapp/bomblab_phase_5/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="BombLab phase_5" />
+<meta property="og:description" content="CSAPP bomb lab phase_5" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/csapp/bomblab_phase_5/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-12-13T15:19:49+08:00" />
+<meta property="article:modified_time" content="2021-12-13T15:19:49+08:00" />
+
+<meta itemprop="name" content="BombLab phase_5">
+<meta itemprop="description" content="CSAPP bomb lab phase_5"><meta itemprop="datePublished" content="2021-12-13T15:19:49+08:00" />
+<meta itemprop="dateModified" content="2021-12-13T15:19:49+08:00" />
+<meta itemprop="wordCount" content="1182">
+<meta itemprop="keywords" content="csapp,汇编," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="BombLab phase_5"/>
+<meta name="twitter:description" content="CSAPP bomb lab phase_5"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Nemo&#39;s blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Nemo&#39;s blog</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">BombLab phase_5</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-12-13 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents"></nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>CSAPP bomb lab phase_5</p>
+<p>直接上代码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="mo">0000000000401062</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">&gt;:</span>
+  <span class="mi">401062</span><span class="o">:</span>	<span class="mi">53</span>                   	<span class="n">push</span>   <span class="o">%</span><span class="n">rbx</span>
+  <span class="mi">401063</span><span class="o">:</span>	<span class="mi">48</span> <span class="mi">83</span> <span class="n">ec</span> <span class="mi">20</span>          	<span class="n">sub</span>    <span class="err">$</span><span class="mh">0x20</span><span class="p">,</span><span class="o">%</span><span class="n">rsp</span>
+  <span class="mi">401067</span><span class="o">:</span>	<span class="mi">48</span> <span class="mi">89</span> <span class="n">fb</span>             	<span class="n">mov</span>    <span class="o">%</span><span class="n">rdi</span><span class="p">,</span><span class="o">%</span><span class="n">rbx</span>
+  <span class="mi">40106</span><span class="nl">a</span><span class="p">:</span>	<span class="mi">64</span> <span class="mi">48</span> <span class="mi">8</span><span class="n">b</span> <span class="mo">04</span> <span class="mi">25</span> <span class="mi">28</span> <span class="mo">00</span> 	<span class="n">mov</span>    <span class="o">%</span><span class="nl">fs</span><span class="p">:</span><span class="mh">0x28</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span>
+  <span class="mi">401071</span><span class="o">:</span>	<span class="mo">00</span> <span class="mo">00</span> 
+  <span class="mi">401073</span><span class="o">:</span>	<span class="mi">48</span> <span class="mi">89</span> <span class="mi">44</span> <span class="mi">24</span> <span class="mi">18</span>       	<span class="n">mov</span>    <span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mh">0x18</span><span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">)</span>
+  <span class="mi">401078</span><span class="o">:</span>	<span class="mi">31</span> <span class="n">c0</span>                	<span class="n">xor</span>    <span class="o">%</span><span class="n">eax</span><span class="p">,</span><span class="o">%</span><span class="n">eax</span>
+  <span class="mi">40107</span><span class="nl">a</span><span class="p">:</span>	<span class="n">e8</span> <span class="mi">9</span><span class="n">c</span> <span class="mo">02</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">40131</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">string_length</span><span class="o">&gt;</span>
+  <span class="mf">40107f</span><span class="o">:</span>	<span class="mi">83</span> <span class="n">f8</span> <span class="mo">06</span>             	<span class="n">cmp</span>    <span class="err">$</span><span class="mh">0x6</span><span class="p">,</span><span class="o">%</span><span class="n">eax</span>
+  <span class="mi">401082</span><span class="o">:</span>	<span class="mi">74</span> <span class="mi">4</span><span class="n">e</span>                	<span class="n">je</span>     <span class="mi">4010</span><span class="n">d2</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x70</span><span class="o">&gt;</span>
+  <span class="mi">401084</span><span class="o">:</span>	<span class="n">e8</span> <span class="n">b1</span> <span class="mo">03</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">40143</span><span class="n">a</span> <span class="o">&lt;</span><span class="n">explode_bomb</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>对于这一个部分，首先关注这几行：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">40107</span><span class="nl">a</span><span class="p">:</span>	<span class="n">e8</span> <span class="mi">9</span><span class="n">c</span> <span class="mo">02</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">40131</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">string_length</span><span class="o">&gt;</span>
+  <span class="mf">40107f</span><span class="o">:</span>	<span class="mi">83</span> <span class="n">f8</span> <span class="mo">06</span>             	<span class="n">cmp</span>    <span class="err">$</span><span class="mh">0x6</span><span class="p">,</span><span class="o">%</span><span class="n">eax</span>
+  <span class="mi">401082</span><span class="o">:</span>	<span class="mi">74</span> <span class="mi">4</span><span class="n">e</span>                	<span class="n">je</span>     <span class="mi">4010</span><span class="n">d2</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x70</span><span class="o">&gt;</span>
+  <span class="mi">401084</span><span class="o">:</span>	<span class="n">e8</span> <span class="n">b1</span> <span class="mo">03</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">40143</span><span class="n">a</span> <span class="o">&lt;</span><span class="n">explode_bomb</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这里调用了一个 string_length 函数，将返回值 %eax 和 6 比较，相等则跳转到 4010d2 处（暂未列出），不相等就 explode_bomb 。因此，可以推断这里必须输入一个6个字符的字符串。</p>
+<p>看看跳到了哪里，把 %eax 置为 0 后，跳到 401086</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">4010</span><span class="nl">d2</span><span class="p">:</span>	<span class="n">b8</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">mov</span>    <span class="err">$</span><span class="mh">0x0</span><span class="p">,</span><span class="o">%</span><span class="n">eax</span>
+  <span class="mi">4010</span><span class="nl">d7</span><span class="p">:</span>	<span class="n">eb</span> <span class="n">b2</span>                	<span class="n">jmp</span>    <span class="mi">40108</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x29</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>接下来是核心的循环：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">40108</span><span class="nl">b</span><span class="p">:</span>	<span class="mf">0f</span> <span class="n">b6</span> <span class="mi">0</span><span class="n">c</span> <span class="mo">03</span>          	<span class="n">movzbl</span> <span class="p">(</span><span class="o">%</span><span class="n">rbx</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="o">%</span><span class="n">ecx</span>
+  <span class="mf">40108f</span><span class="o">:</span>	<span class="mi">88</span> <span class="mi">0</span><span class="n">c</span> <span class="mi">24</span>             	<span class="n">mov</span>    <span class="o">%</span><span class="n">cl</span><span class="p">,(</span><span class="o">%</span><span class="n">rsp</span><span class="p">)</span>
+  <span class="mi">401092</span><span class="o">:</span>	<span class="mi">48</span> <span class="mi">8</span><span class="n">b</span> <span class="mi">14</span> <span class="mi">24</span>          	<span class="n">mov</span>    <span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">),</span><span class="o">%</span><span class="n">rdx</span>
+  <span class="mi">401096</span><span class="o">:</span>	<span class="mi">83</span> <span class="n">e2</span> <span class="mf">0f</span>             	<span class="n">and</span>    <span class="err">$</span><span class="mh">0xf</span><span class="p">,</span><span class="o">%</span><span class="n">edx</span>
+  <span class="mi">401099</span><span class="o">:</span>	<span class="mf">0f</span> <span class="n">b6</span> <span class="mi">92</span> <span class="n">b0</span> <span class="mi">24</span> <span class="mi">40</span> <span class="mo">00</span> 	<span class="n">movzbl</span> <span class="mh">0x4024b0</span><span class="p">(</span><span class="o">%</span><span class="n">rdx</span><span class="p">),</span><span class="o">%</span><span class="n">edx</span>
+  <span class="mi">4010</span><span class="nl">a0</span><span class="p">:</span>	<span class="mi">88</span> <span class="mi">54</span> <span class="mo">04</span> <span class="mi">10</span>          	<span class="n">mov</span>    <span class="o">%</span><span class="n">dl</span><span class="p">,</span><span class="mh">0x10</span><span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+  <span class="mi">4010</span><span class="nl">a4</span><span class="p">:</span>	<span class="mi">48</span> <span class="mi">83</span> <span class="n">c0</span> <span class="mo">01</span>          	<span class="n">add</span>    <span class="err">$</span><span class="mh">0x1</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span>
+  <span class="mi">4010</span><span class="nl">a8</span><span class="p">:</span>	<span class="mi">48</span> <span class="mi">83</span> <span class="n">f8</span> <span class="mo">06</span>          	<span class="n">cmp</span>    <span class="err">$</span><span class="mh">0x6</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span>
+  <span class="mi">4010</span><span class="nl">ac</span><span class="p">:</span>	<span class="mi">75</span> <span class="n">dd</span>                	<span class="n">jne</span>    <span class="mi">40108</span><span class="n">b</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x29</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>在 40108b 之前，我们先看看这几个寄存器里都有什么，</p>
+<p>输入:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="n">x</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">rax</span>
+<span class="n">x</span><span class="o">/</span><span class="n">s</span> <span class="err">$</span><span class="n">rbx</span>
+<span class="n">x</span><span class="o">/</span><span class="n">x</span> <span class="n">ecx</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>结果为：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span> <span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">rax</span>
+<span class="mh">0x0</span><span class="o">:</span>    <span class="n">Cannot</span> <span class="n">access</span> <span class="n">memory</span> <span class="n">at</span> <span class="n">address</span> <span class="mh">0x0</span>
+<span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span><span class="o">/</span><span class="n">s</span> <span class="err">$</span><span class="n">rbx</span>
+<span class="mh">0x6038c0</span> <span class="o">&lt;</span><span class="n">input_strings</span><span class="o">+</span><span class="mi">320</span><span class="o">&gt;:</span>   <span class="s">&#34;ionefg&#34;</span>
+<span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">rbx</span>
+<span class="mh">0x6038c0</span> <span class="o">&lt;</span><span class="n">input_strings</span><span class="o">+</span><span class="mi">320</span><span class="o">&gt;:</span>   <span class="mh">0x656e6f69</span>
+<span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">ecx</span>
+<span class="mh">0x6</span><span class="o">:</span>    <span class="n">Cannot</span> <span class="n">access</span> <span class="n">memory</span> <span class="n">at</span> <span class="n">address</span> <span class="mh">0x6</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">p</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">rax</span>
+<span class="err">$</span><span class="mi">3</span> <span class="o">=</span> <span class="mh">0x0</span>
+<span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">p</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">ecx</span>
+<span class="err">$</span><span class="mi">4</span> <span class="o">=</span> <span class="mh">0x6</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>可以看到 %rbx 就是我们输入的参数，这里</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="n">movzbl</span> <span class="p">(</span><span class="o">%</span><span class="n">rbx</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span><span class="o">%</span><span class="n">ecx</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>取 (%rbx+1*%rax) 的低位一个字节，然后零拓展到32位，存储到%ecx寄存器里去，相当于把输入作为一个数组，(%rbx)中的地址是数组的第一个元素所在的地址。最后，%ecx 中就是我们输入的第一个字符的ASCII码。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">p</span><span class="o">/</span><span class="n">x</span> <span class="err">$</span><span class="n">ecx</span>
+<span class="err">$</span><span class="mi">3</span> <span class="o">=</span> <span class="mh">0x69</span>	
+</code></pre></td></tr></table>
+</div>
+</div><p>将其一通mov后，放到%rdx中，与0xf，只取其低4位</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">401096</span><span class="o">:</span>	<span class="mi">83</span> <span class="n">e2</span> <span class="mf">0f</span>             	<span class="n">and</span>    <span class="err">$</span><span class="mh">0xf</span><span class="p">,</span><span class="o">%</span><span class="n">edx</span>
+  <span class="mi">401099</span><span class="o">:</span>	<span class="mf">0f</span> <span class="n">b6</span> <span class="mi">92</span> <span class="n">b0</span> <span class="mi">24</span> <span class="mi">40</span> <span class="mo">00</span> 	<span class="n">movzbl</span> <span class="mh">0x4024b0</span><span class="p">(</span><span class="o">%</span><span class="n">rdx</span><span class="p">),</span><span class="o">%</span><span class="n">edx</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>401099 这里出现了一个地址，把它输出看一下</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span><span class="o">/</span><span class="n">s</span> <span class="mh">0x4024b0</span>
+<span class="mh">0x4024b0</span> <span class="o">&lt;</span><span class="n">array</span><span class="mf">.3449</span><span class="o">&gt;:</span>  <span class="s">&#34;maduiersnfotvbylSo you think you can stop the bomb with ctrl-c, do you?&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这里有一个很熟悉的字符串，但是前面好像多了点乱序的字符，继续往下看</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">4010</span><span class="nl">a0</span><span class="p">:</span>	<span class="mi">88</span> <span class="mi">54</span> <span class="mo">04</span> <span class="mi">10</span>          	<span class="n">mov</span>    <span class="o">%</span><span class="n">dl</span><span class="p">,</span><span class="mh">0x10</span><span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+  <span class="mi">4010</span><span class="nl">a4</span><span class="p">:</span>	<span class="mi">48</span> <span class="mi">83</span> <span class="n">c0</span> <span class="mo">01</span>          	<span class="n">add</span>    <span class="err">$</span><span class="mh">0x1</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span>
+  <span class="mi">4010</span><span class="nl">a8</span><span class="p">:</span>	<span class="mi">48</span> <span class="mi">83</span> <span class="n">f8</span> <span class="mo">06</span>          	<span class="n">cmp</span>    <span class="err">$</span><span class="mh">0x6</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>结合上面的代码，整个核心循环部分就是，利用输入的字符计算偏移量，放到 %rdx 中</p>
+<p>然后取内存 (0x4024b0 + %rdx) 中的一个字节放到 %edx 里</p>
+<p>再将 %edx 中的这个值放到 (%rsp+1*%rax+10) 这个地址(%rax 初始为0)，然后将 %rax+=1 ，直到 %rax 里面的数为 6 的时候，结束循环。</p>
+<p>这个循环用 6 个输入字符计算偏移量，然后从字符串0x4024b0中取数（在内存中是ASCII码的形式）存到 (%rsp+10) - (%rsp+15)这六个字节里。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="mh">0x4024b0</span> <span class="o">&lt;</span><span class="n">array</span><span class="mf">.3449</span><span class="o">&gt;:</span>  <span class="s">&#34;maduiersnfotvbylSo you think you can stop the bomb with ctrl-c, do you?&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>接下来：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c">  <span class="mi">4010</span><span class="nl">ae</span><span class="p">:</span>	<span class="n">c6</span> <span class="mi">44</span> <span class="mi">24</span> <span class="mi">16</span> <span class="mo">00</span>       	<span class="n">movb</span>   <span class="err">$</span><span class="mh">0x0</span><span class="p">,</span><span class="mh">0x16</span><span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">)</span>
+  <span class="mi">4010</span><span class="nl">b3</span><span class="p">:</span>	<span class="n">be</span> <span class="mi">5</span><span class="n">e</span> <span class="mi">24</span> <span class="mi">40</span> <span class="mo">00</span>       	<span class="n">mov</span>    <span class="err">$</span><span class="mh">0x40245e</span><span class="p">,</span><span class="o">%</span><span class="n">esi</span>
+  <span class="mi">4010</span><span class="nl">b8</span><span class="p">:</span>	<span class="mi">48</span> <span class="mi">8</span><span class="n">d</span> <span class="mi">7</span><span class="n">c</span> <span class="mi">24</span> <span class="mi">10</span>       	<span class="n">lea</span>    <span class="mh">0x10</span><span class="p">(</span><span class="o">%</span><span class="n">rsp</span><span class="p">),</span><span class="o">%</span><span class="n">rdi</span>
+  <span class="mi">4010</span><span class="nl">bd</span><span class="p">:</span>	<span class="n">e8</span> <span class="mi">76</span> <span class="mo">02</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">401338</span> <span class="o">&lt;</span><span class="n">strings_not_equal</span><span class="o">&gt;</span>
+  <span class="mi">4010</span><span class="nl">c2</span><span class="p">:</span>	<span class="mi">85</span> <span class="n">c0</span>                	<span class="n">test</span>   <span class="o">%</span><span class="n">eax</span><span class="p">,</span><span class="o">%</span><span class="n">eax</span>
+  <span class="mi">4010</span><span class="nl">c4</span><span class="p">:</span>	<span class="mi">74</span> <span class="mi">13</span>                	<span class="n">je</span>     <span class="mi">4010</span><span class="n">d9</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x77</span><span class="o">&gt;</span>
+  <span class="mi">4010</span><span class="nl">c6</span><span class="p">:</span>	<span class="n">e8</span> <span class="mf">6f</span> <span class="mo">03</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">callq</span>  <span class="mi">40143</span><span class="n">a</span> <span class="o">&lt;</span><span class="n">explode_bomb</span><span class="o">&gt;</span>
+  <span class="mi">4010</span><span class="nl">cb</span><span class="p">:</span>	<span class="mf">0f</span> <span class="mf">1f</span> <span class="mi">44</span> <span class="mo">00</span> <span class="mo">00</span>       	<span class="n">nopl</span>   <span class="mh">0x0</span><span class="p">(</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="o">%</span><span class="n">rax</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+  <span class="mi">4010</span><span class="nl">d0</span><span class="p">:</span>	<span class="n">eb</span> <span class="mo">07</span>                	<span class="n">jmp</span>    <span class="mi">4010</span><span class="n">d9</span> <span class="o">&lt;</span><span class="n">phase_5</span><span class="o">+</span><span class="mh">0x77</span><span class="o">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>4010ae在 (%rsp+16) 添加一个 \0，相当于字符结尾。紧接着又出现了一个内存地址，打印出来看看</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="p">(</span><span class="n">gdb</span><span class="p">)</span> <span class="n">x</span><span class="o">/</span><span class="n">s</span> <span class="mh">0x40245e</span>
+<span class="mh">0x40245e</span><span class="o">:</span>       <span class="s">&#34;flyers&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>接着，4010b8 将刚刚的 (%rsp+10) 放到 %rdi 中，然后调用 strings_not_equal，判断字符串是否相等，如果相等则跳转，不相等就 bomb，后面的部分与本题关系就不大了。</p>
+<p>因此，在字符串 maduiersnfotvbyl 中，找到 flyers 的index，根据index去ASCII中找低位一个字节对应的字母就好，分别是9、15、14、5、6、7，对于的字母为 ionefg</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">i</td>
+<td style="text-align:center">0110<u>1001</u></td>
+<td>9</td>
+</tr>
+<tr>
+<td style="text-align:center">o</td>
+<td style="text-align:center">0110<u>1111</u></td>
+<td>15</td>
+</tr>
+<tr>
+<td style="text-align:center">n</td>
+<td style="text-align:center">01101110</td>
+<td>14</td>
+</tr>
+<tr>
+<td style="text-align:center">e</td>
+<td style="text-align:center">0110<u>0101</u></td>
+<td>5</td>
+</tr>
+<tr>
+<td style="text-align:center">f</td>
+<td style="text-align:center">0110<u>0110</u></td>
+<td>6</td>
+</tr>
+<tr>
+<td style="text-align:center">g</td>
+<td style="text-align:center">0110<u>0111</u></td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Nemo</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2021-12-13
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/csapp/">csapp</a>
+          <a href="/tags/%E6%B1%87%E7%BC%96/">汇编</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/csapp/bomb_lab/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Bomb_Lab phase_5</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Nemo</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        }
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

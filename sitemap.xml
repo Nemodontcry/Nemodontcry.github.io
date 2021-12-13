@@ -9,14 +9,56 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-11-30T10:16:11+08:00</lastmod>
+    <loc>http://localhost:1313/post/csapp/bomb_lab/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/csapp/bomblab_phase_5/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/csapp/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E6%B1%87%E7%BC%96/</loc>
+    <lastmod>2021-12-13T15:19:49+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2021-11-30T10:16:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -38,13 +80,6 @@
   
   <url>
     <loc>http://localhost:1313/categories/pages/</loc>
-    <lastmod>2021-11-30T10:16:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-11-30T10:16:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
